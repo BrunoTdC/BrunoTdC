@@ -81,7 +81,8 @@ section .container .row .sobrepor{
 #conteudo{
     background-image: url(FUNDO1.png);
     background-size: cover;
-}
+    background-repeat: no-repeat;
+   }
 
 
 #conteudo img{
@@ -100,10 +101,9 @@ section .container .row .sobrepor{
  }
 
 
-#conteudo .container .row h1{
+#conteudo .container .row .sx0{
     color: blueviolet;
     font-family: 'Merienda', cursive;
-    margin-top: 150px;
     margin-bottom: 0;
     text-align: end;
 }
@@ -137,13 +137,13 @@ section .container .row .sobrepor{
 }
 #rede i{
    margin-left: 9px;
-   margin-top: 27px;
+   margin-top: 50%;
    color: white;
 }
 #ancora{
     position: fixed;
-    bottom: 240px;
-    left: 1215px;
+    bottom: 40%;
+    left: 96.5%;
     width: 30px;
     height: 115px;
     background-color: #f3914b;
@@ -162,6 +162,100 @@ section .container .row .sobrepor{
 .form-check-input:hover{
     background-color: #ff6a00;
 }
+.container .row .col-12 .sx{
+    text-align: center;
+    font-family: 'Merienda', cursive; 
+    color: blueviolet; 
+    font-weight: 900; 
+    font-size: 50px; 
+    margin-top: 250px;
+
+}
+@media (max-width: 576px) {
+    #ancora{
+       left: 92%;
+ }
+ section h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+   
+}
+#rede{
+   
+    bottom: 22%;
+    left: 2.5%;
+}
+#conteudo .container .row h1{
+   text-align: center;
+}
+#conteudo .container .row p{
+    text-align: center;
+}
+#conteudo img{
+   width: 250px;   
+   margin-left: 50px;
+}
+#tela .row{
+    padding: 0px;
+    margin-left: 0;
+}
+#tela .row img{
+    padding: 10px;
+    margin-left: 0;
+}
+#tela .row .note{
+    width: 350px;
+}
+
+#ancora{
+   left: -200%;
+}
+
+.container .row .col-12 .sx{
+    margin-top: 20px;
+    }
+
+
+}
+@media (min-width: 576px) and (max-width: 768px) { 
+    #ancora{
+        left: 93%;
+   }
+    section h1{
+    font-size: 50px;
+   
+    }
+    
+
+   
+ }
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #ancora{
+        left: 95%;
+  }
+  section h1{
+    font-size: 60px;
+   
+}
+
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1200px) { 
+    #ancora{
+        left: 96%;
+  }
+
+ }
+
+
+@media (min-width: 1400px) { 
+
+ }
 
 
 
