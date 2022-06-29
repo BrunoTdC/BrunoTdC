@@ -15,6 +15,20 @@
        
     }
 }
+@keyframes iphone{
+
+    from{/*estado inicial*/
+
+        padding: 10px;
+       
+
+    }
+
+    to{/*estado final*/
+        padding: 0;
+       
+    }
+}
 *{ 
     padding: 0;
     margin: 0;
@@ -55,13 +69,12 @@ nav .container .auto .navbar-nav a:hover{
    height: 85px;
 }
 section .container .row .sobrepor{
-    padding: 5px;
+    padding: 10px;
+    animation-name: iphone;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
     
-     
-}
-section .container .row .sobrepor:hover{
-    padding: 0;
-    transition: 0.8s;
      
 }
 
@@ -80,7 +93,6 @@ section .container .row .sobrepor:hover{
 #conteudo .img2{
     
     animation-name: img2;
-    animation-timing-function: linear;
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -90,19 +102,68 @@ section .container .row .sobrepor:hover{
 
 #conteudo .container .row h1{
     color: blueviolet;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Merienda', cursive;
     margin-top: 150px;
     margin-bottom: 0;
     text-align: end;
 }
 #conteudo .container .row p{
-    color: blueviolet;
+    color: rgb(88, 30, 143);
     text-align: end;
     font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     
 }
+#tela{
+    background-color: #dc9b6e;
+    text-align: center;
+}
+#tela h3{
+    color: rgb(88, 30, 143);
+    font-weight: 400;
+}
+#tela .row{
+    padding: 50px 160px;
+}
+#rede{
+    position: fixed;
+    bottom: 240px;
+    left: 15px;
+    width: 50px;
+    height: 135px;
+    background-color: #f3914b;
+    border-radius: 50px;
+}
+#rede i{
+   margin-left: 9px;
+   margin-top: 27px;
+   color: white;
+}
+#ancora{
+    position: fixed;
+    bottom: 240px;
+    left: 1215px;
+    width: 30px;
+    height: 115px;
+    background-color: #f3914b;
+    border-radius: 50px;
+}
+#ancora .form-check{
+    margin-left: 7.3px;
+    margin-top: 11px;
+}
+
+.form-check-input{
+    border: none;
+    border-radius: 50px;
+    background-color: #ffe6d4;
+}
+.form-check-input:hover{
+    background-color: #ff6a00;
+}
+
+
 
 
 

@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-transparent text-white">
+        <nav id="ancora2" class="navbar navbar-expand-lg bg-transparent text-white">
         <div class="container">
           <a class="navbar-brand indent" id="logo" href="index.html">BestTemplate</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bars" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,55 +23,104 @@
           </button>
           <div class="collapse navbar-collapse auto" id="bars">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Destaques</a>
-              <a class="nav-link" href="#">Portifolho</a>
-              <a class="nav-link" href="#">Empresa</a>
+              <a class="nav-link "aria-current="page" href="#conteudo">Destaques</a>
+              <a class="nav-link" href="#tela">Portifolho</a>
+              <a class="nav-link" href="#empresa">Empresa</a>
             </div>
           </div>
         </div>
         </nav>
     </header>
-    <section>
-        <div class="container mb-4">
-            <div class="row justify-content-center">
-                <div class="col-6">
-                    <h1>Website como você sempre imagino</h1>
-                </div>
-                <div class="col-3 sobrepor">
-                    <img class="img-fluid" src="IPHONE.png" alt="">
-                </div>
-            </div>
+
+    <div id="ancora">
+        <div class="form-check">
+                <a href="#conteudo"> <input class="form-check-input" type="button" name="flexRadioDefault" id="flexRadioDefault1" >
+                    
+                </a>
+                
+               
+        </div>
+        <div class="form-check">
+            <a href="#tela"> <input class="form-check-input" type="button" name="flexRadioDefault" id="flexRadioDefault2">
+                
+            </a>
+           
+               
+        </div>
+        <div class="form-check">
+            <a href="#"> <input class="form-check-input" type="button" name="flexRadioDefault" id="flexRadioDefault3 ">
+            </a>   
         </div>
         
-    </section>
-    <section id="conteudo">
-        <div class="container">
-            <div class="row justify-content-center ">
-             <div class="align-self-end  col-2 mt-4 mb-4">
-                 <img class="img-fluid" src="conteudo1.png" alt="">
-                 <img class="img-fluid img2" src="conteudo2.png" alt="">
-             </div>
-             <div  class="col-8 mt-4 mb-4">
-                <h1>Destaque</h1>
-                <p>"Nossa nova empresa especializada em colocar as suas  ideias na internet e forma segura e profissional.
-                Com  ampla esperiencia em <br>Lege Page e site Institucionais."</p>
-                <p>Nós deixe fazer parte da criação ou expanção do seu negócio.</p>
-             </div>
-            </div>            
-         </div>
-         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 style="text-align: center; font-family: 'Josefin Sans', sans-serif; color: blueviolet; font-weight: 900; font-size: 50px; margin-top: 150px;">Portifolho</h1>
+    </div>
+
+    <div data-bs-spy="scroll" data-bs-target="#ancora2 #ancora" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <section style="height: 580px ;" >
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-6">
+                        <h1>Website como você sempre imagino</h1>
+                    </div>
+                    <div class="col-3 sobrepor">
+                        <img class="img-fluid" src="IPHONE.png" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    
+            
+        </section>
+        <section id="conteudo">
+            <div class="container">
+                <div class="row justify-content-center ">
+                 <div  class="align-self-end  col-2 ">
+                     <img class="img-fluid" src="conteudo1.png" alt="">
+                     <img class="img-fluid img2" src="conteudo2.png" alt="">
+                 </div>
+                 <div class="col-8 ">
+                    <h1>Destaque</h1>
+                    <p>"Nossa nova empresa especializada em colocar as suas  ideias na internet e forma segura e profissional.
+                    Com  ampla esperiencia em <br>Lege Page e site Institucionais."</p>
+                    <p>Nós deixe fazer parte da criação ou expanção do seu negócio.</p>
+                 </div>
+                </div>            
+             </div>
+             <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 id="portifilho" style="text-align: center; font-family: 'Merienda', cursive; color: blueviolet; font-weight: 900; font-size: 50px; margin-top: 250px;">Portifolho</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h1 style="text-align: center; font-family: 'Josefin Sans', sans-serif; color: rgb(88, 30, 143); font-weight: 400; font-size: 40px; margin: 10px 0 0 0;">Telas</h1>
+                    </div>
+                </div>
+             </div>
+        </section>
+        <section id="tela">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-7 align-self-end">
+                       <a href="https://brunotdc.github.io/graficarapidamv/"><img width="470" src="p3ok.png" alt=""></a> 
+                    </div>
+                    <div class="col-3 align-self-end">
+                       <a href="https://brunotdc.github.io/graficarapidamv/"><img width="185" src="p2ok.png" alt=""></a> 
+                    </div>
+                    <div class="col-2 align-self-end">
+                      <a href="https://brunotdc.github.io/graficarapidamv/"><img width="120" class="img-fluid" src="p1ok.png" alt=""></a>   
+                    </div>
                 </div>
             </div>
-         </div>
-    </section>
+        </section>
+        <div id="rede">
+            <i class="fa-brands fa-facebook fa-2xl"></i> <br>
+            <i class="fa-brands fa-instagram fa-2xl"></i> <br>
+            <i class="fa-brands fa-twitter fa-2xl"></i>
+    
+    
+        </div>
+        
+        
+    </div>
     
     
    
