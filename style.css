@@ -82,7 +82,7 @@ section .container .row .sobrepor{
     background-image: url(FUNDO1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 30px;
+    height: 600px;
    }
 
 
@@ -119,6 +119,7 @@ section .container .row .sobrepor{
 #tela{
     background-color: #dc9b6e;
     text-align: center;
+   
 }
 #tela h3{
     color: rgb(88, 30, 143);
@@ -168,18 +169,35 @@ section .container .row .sobrepor{
     font-family: 'Merienda', cursive; 
     color: blueviolet; 
     font-weight: 900; 
-    font-size: 50px; 
-    margin-top: 250px;
-
+    font-size: 50px;
+    margin: 0; 
+    }
+.container .row .col-12 .sx2{
+    text-align: center; 
+    font-family: 'Josefin Sans', sans-serif; 
+    color: rgb(88, 30, 143); 
+    font-weight: 400; 
+    font-size: 40px; 
+    margin: 0;
 }
-@media (max-width: 576px) {
-    #ancora{
-       left: 92%;
- }
- section h1{
+    @media (max-width: 576px) {
+section .container .row .sobrepor{
+    margin-left: 7%; 
+    
+ 
+       
+}
+
+#ancora{
+    left: 92%;
+}
+section h1{
     font-size: 50px;
     text-align: center;
     margin-top: 150px;
+    margin-bottom: 20px;
+   
+
    
 }
 #rede{
@@ -201,13 +219,7 @@ section .container .row .sobrepor{
     padding: 0px;
     margin-left: 0;
 }
-#tela .row img{
-    padding: 10px;
-    margin-left: 0;
-}
-#tela .row .note{
-    width: 350px;
-}
+
 
 #ancora{
    left: -200%;
@@ -217,6 +229,10 @@ section .container .row .sobrepor{
     margin-top: 20px;
     text-align: center;
     }
+#tela .row img{
+        padding: 10px;
+        
+}
 
 
 }
@@ -228,6 +244,13 @@ section .container .row .sobrepor{
     font-size: 50px;
    
     }
+    #tela .row img{
+        padding: 10px;
+        
+    }
+    #ancora{
+        bottom: 37.5%;
+     }
     
 
    
@@ -242,6 +265,10 @@ section .container .row .sobrepor{
     font-size: 60px;
    
 }
+#tela .row img{
+    padding: 10px;
+   
+}
 
 
  }
@@ -251,11 +278,20 @@ section .container .row .sobrepor{
     #ancora{
         left: 96%;
   }
+  #tela .row img{
+    padding: 10px;
+   
+}
 
  }
 
 
-@media (min-width: 1400px) { 
+@media (min-width: 1200px) { 
+    #conteudo{
+        margin-top: 200px;
+        height: 750px;
+    }
+    
 
  }
 
