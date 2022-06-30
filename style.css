@@ -194,7 +194,7 @@ section .container .row .sobrepor{
 section h1{
     font-size: 50px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 90px;
     margin-bottom: 20px;
    
 
@@ -205,7 +205,7 @@ section h1{
 }
 #rede{
    
-    bottom: 22%;
+    bottom: 20%;
     left: 2.5%;
 }
 #conteudo .container .row h1{
