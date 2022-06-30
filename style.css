@@ -41,18 +41,23 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-section h1{
-    margin: 100px 0 115px 0px;
+section .container .row .mt{
+    margin: 55px 0 30px 0px;
     font-weight: 700;
     font-size: 80px;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
+    
 }
 nav .container .auto .navbar-nav{
     margin-left: auto;
 }
 nav .container .auto .navbar-nav a{
     color: white;
+}
+nav .container .auto .navbar-nav .btn-outline-light{
+    font-weight: 600;
+    margin-left: 15px;
 }
 
 nav .container .auto .navbar-nav a:hover{
@@ -64,9 +69,16 @@ nav .container .auto .navbar-nav a:hover{
 }
 #logo{
    background: url(LOGO_1.png);
-   margin: 15px;
-   width: 248px;
+   width: 249px;
    height: 85px;
+}
+#principal{
+    
+    height: 700px;
+}
+#principal .container .parar{
+   
+    height: 700px;
 }
 section .container .row .sobrepor{
     padding: 10px;
@@ -75,7 +87,25 @@ section .container .row .sobrepor{
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
+    
      
+}
+#principal .container .row .row .btn-warning{
+    background-color: #ff6a00;
+    border: 3px solid #f5d4bd;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+#principal .container .row .row .btn-warning:hover{
+   background-color: #f3914b;
+   
+}
+#principal .container .row .row .btn-outline-light{
+    border:3px solid #ffffff;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 11px;
 }
 
 #conteudo{
@@ -83,6 +113,8 @@ section .container .row .sobrepor{
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
+   
+    
    }
 
 
@@ -99,14 +131,18 @@ section .container .row .sobrepor{
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
- }
-
+}
+#conteudo .container .row{
+    height: 550px;
+   
+}
 
 #conteudo .container .row .sx0{
     color: blueviolet;
     font-family: 'Merienda', cursive;
-    margin-bottom: 0;
     text-align: end;
+    font-size: 55px;
+    
 }
 #conteudo .container .row p{
     color: rgb(88, 30, 143);
@@ -114,6 +150,7 @@ section .container .row .sobrepor{
     font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
+  
     
 }
 #tela{
@@ -139,7 +176,7 @@ section .container .row .sobrepor{
 }
 #rede i{
    margin-left: 9px;
-   margin-top: 50%;
+   margin-top: 54%;
    color: white;
 }
 #ancora{
@@ -180,6 +217,17 @@ section .container .row .sobrepor{
     font-size: 40px; 
     margin: 0;
 }
+.sub-tutulo{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.margon-row{
+    margin-top: 0;
+}
+
     @media (max-width: 576px) {
 section .container .row .sobrepor{
     margin-left: 7%; 
@@ -191,7 +239,7 @@ section .container .row .sobrepor{
 #ancora{
     left: 92%;
 }
-section h1{
+section .container .row .mt{
     font-size: 50px;
     text-align: center;
     margin-top: 90px;
@@ -291,8 +339,7 @@ section h1{
 
 @media (min-width: 1200px) { 
     #conteudo{
-        margin-top: 200px;
-        height: 750px;
+        height: 820px;        
     }
     
 
