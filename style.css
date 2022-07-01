@@ -56,8 +56,15 @@ nav .container .auto .navbar-nav a{
     color: white;
 }
 nav .container .auto .navbar-nav .btn-outline-light{
+    background-color: #ff6a00;
     font-weight: 600;
     margin-left: 15px;
+    border: 3px solid white;
+}
+nav .container .auto .navbar-nav .btn-outline-light:hover{
+    color: #8b3a00;
+    background-color: #f3914b;
+    
 }
 
 nav .container .auto .navbar-nav a:hover{
@@ -131,7 +138,7 @@ section .container .row .sobrepor{
     
 }
 #conteudo .container .row{
-    height: 550px;
+    height: 430px;
    
 }
 
@@ -151,6 +158,27 @@ section .container .row .sobrepor{
     font-weight: 300;
   
     
+}
+#conteudo .container .row .caixa{
+    padding: 10px;
+    height: 250px;
+    background-color: #ffe3b3;
+    border-radius: 5px;
+}
+#conteudo .container .row .caixa i{
+    color: #ff8f40;
+    padding-bottom: 10px;
+    padding-left: 2px;
+}
+#conteudo .container .row .caixa h5{
+    font-family: 'Squada One', cursive;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.692);
+}
+#conteudo .container .row .caixa p{
+    text-align: start;
+    font-size: 17.5px;
+    color: rgba(0, 0, 0, 0.541);
 }
 #tela{
     background-color: #dc9b6e;
@@ -203,7 +231,7 @@ section .container .row .sobrepor{
 .container .row .col-12 .sx{
     text-align: center;
     font-family: 'Squada One', cursive;
-    color: #e9d1c0;
+    color: #ffe2cd;
     font-weight: 900; 
     font-size: 80px;
     margin: 0; 
@@ -278,6 +306,48 @@ section .container .row .sobrepor{
     background-position-x: center;
     
 }
+footer .container-fluid .foot1 {
+   padding: 20px;
+    
+}
+footer .container-fluid .foot1 i{
+    color: rgb(65, 0, 139);
+    background: white;
+    border: 3px solid white;
+    padding: 30px;
+    border-radius: 50px;
+    
+}
+footer .container-fluid .foot1 i:hover{
+    color: white;
+    background: none;
+    
+}
+footer .container-fluid .foot2{
+    background-color: rgb(30, 0, 99);
+    padding: 20px;
+
+}
+footer .container-fluid .foot2 h5{
+    color: white;
+    font-family: 'Squada One', cursive;
+}
+footer .container-fluid .foot2 p{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+footer .container-fluid .foot3{
+    background-color: rgb(13, 0, 43);
+    padding: 10px;
+
+}
+footer .container-fluid .foot3 p{
+    text-align: center;
+    color: white;
+
+}
+
 
 
     @media (max-width: 576px) {
@@ -395,7 +465,8 @@ section .container .row .mt{
 
 @media (min-width: 1200px) and (max-width:1439px) { 
     #conteudo{
-        height: 722px;   
+        margin-top: 50px;
+        height: 850px;   
          
     }
     
