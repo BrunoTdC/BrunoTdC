@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merienda:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
 @keyframes img2{
 
     from{/*estado inicial*/
@@ -112,10 +112,8 @@ section .container .row .sobrepor{
     background-image: url(FUNDO1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
-   
-    
-   }
+    height: 630px;
+}
 
 
 #conteudo img{
@@ -138,14 +136,15 @@ section .container .row .sobrepor{
 }
 
 #conteudo .container .row .sx0{
-    color: blueviolet;
-    font-family: 'Merienda', cursive;
+    color: #ff6a00;
+    font-family: 'Squada One', cursive;
     text-align: end;
-    font-size: 55px;
+    font-size: 80px;
+    text-transform: uppercase;
     
 }
 #conteudo .container .row p{
-    color: rgb(88, 30, 143);
+    color: #805b40;
     text-align: end;
     font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
@@ -156,11 +155,11 @@ section .container .row .sobrepor{
 #tela{
     background-color: #dc9b6e;
     text-align: center;
-   
+  
 }
 #tela h3{
-    color: rgb(88, 30, 143);
-    font-weight: 400;
+    color: #ff9e58;
+    font-weight: 300;
 }
 #tela .row{
     padding: 50px 160px;
@@ -203,18 +202,19 @@ section .container .row .sobrepor{
 }
 .container .row .col-12 .sx{
     text-align: center;
-    font-family: 'Merienda', cursive; 
-    color: blueviolet; 
+    font-family: 'Squada One', cursive;
+    color: #e9d1c0;
     font-weight: 900; 
-    font-size: 50px;
+    font-size: 80px;
     margin: 0; 
+    text-transform: uppercase;
     }
 .container .row .col-12 .sx2{
     text-align: center; 
     font-family: 'Josefin Sans', sans-serif; 
-    color: rgb(88, 30, 143); 
+    color:#8b6447;
     font-weight: 400; 
-    font-size: 40px; 
+    font-size: 30px; 
     margin: 0;
 }
 .sub-tutulo{
@@ -227,6 +227,58 @@ section .container .row .sobrepor{
 .margon-row{
     margin-top: 0;
 }
+#emprenca {
+    padding-top: 50px;
+    padding-bottom: 160px;
+    background-color: #e48762;
+   
+ }
+#emprenca .container .fundo2 .row .col-12 .five-star{
+   display: inline;
+   margin-left: 43%;
+  
+}
+#emprenca .container .row .col-12 h1{
+    text-align: center;
+    font-family: 'Squada One', cursive;
+    color: #ffe1d6;
+    font-weight: 900; 
+    font-size: 80px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+   
+ }
+#emprenca .container .fundo2 .divisor {
+    padding-top: 100px;
+    
+}
+#emprenca .container .fundo2 .divisor2 {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    
+}
+#emprenca .container .fundo2 .divisor2 p {
+   color: white;
+   text-align: center;
+   font-weight: 200;
+}
+
+#emprenca .container .fundo2 .row i{
+
+    color: yellow;
+}
+#emprenca .container .fundo2 .row .cor{
+
+    color: rgb(116, 116, 0);
+}
+#emprenca .container .fundo2{
+    background-image: url(depoimento.png);
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+}
+
 
     @media (max-width: 576px) {
 section .container .row .sobrepor{
@@ -325,7 +377,7 @@ section .container .row .mt{
  }
 
 
-@media (min-width: 992px) and (max-width: 1200px) { 
+@media (min-width: 992px) and (max-width: 1199px) { 
     #ancora{
         left: 96%;
   }
@@ -333,11 +385,23 @@ section .container .row .mt{
     padding: 10px;
    
 }
+#conteudo{
+    height: 580px;   
+     
+}
 
  }
 
 
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) and (max-width:1439px) { 
+    #conteudo{
+        height: 722px;   
+         
+    }
+    
+
+ }
+ @media (min-width: 1440px) { 
     #conteudo{
         height: 820px;        
     }
